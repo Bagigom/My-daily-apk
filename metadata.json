@@ -1,0 +1,6 @@
+{
+  "name": "DailyFocus",
+  "description": "Aplikasi manajemen tugas harian, timer aktivitas, pencatatan keuangan, serta target harian dan target impian. Berjalan 100% offline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
