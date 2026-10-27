@@ -68,13 +68,13 @@ val TimerAccent = Color(0xFF6366F1)
 
 // ---------- Gradien kartu utama (hero) ----------
 object Gradients {
-  private fun diagonal(vararg colors: Color) =
-    Brush.linearGradient(colors = colors.toList(), start = Offset.Zero, end = Offset.Infinite)
+  private fun diagonal(colors: List<Color>) =
+    Brush.linearGradient(colors = colors, start = Offset.Zero, end = Offset.Infinite)
 
-  val Violet = diagonal(Color(0xFF5B4BDB), Color(0xFF8B5CF6), Color(0xFFD946EF))
-  val Ocean = diagonal(Color(0xFF0F4C81), Color(0xFF2563EB), Color(0xFF06B6D4))
-  val Sunset = diagonal(Color(0xFFF97316), Color(0xFFEC4899), Color(0xFF8B5CF6))
-  val Emerald = diagonal(Color(0xFF047857), Color(0xFF10B981), Color(0xFF84CC16))
+  val Violet = diagonal(listOf(Color(0xFF5B4BDB), Color(0xFF8B5CF6), Color(0xFFD946EF)))
+  val Ocean = diagonal(listOf(Color(0xFF0F4C81), Color(0xFF2563EB), Color(0xFF06B6D4)))
+  val Sunset = diagonal(listOf(Color(0xFFF97316), Color(0xFFEC4899), Color(0xFF8B5CF6)))
+  val Emerald = diagonal(listOf(Color(0xFF047857), Color(0xFF10B981), Color(0xFF84CC16)))
 }
 
 // ---------- Pilihan latar belakang bawaan ----------

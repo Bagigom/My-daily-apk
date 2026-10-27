@@ -692,7 +692,6 @@ fun WishlistItemCard(
 }
 
 @Composable
-@Composable
 fun WishlistImageBanner(
   path: String,
   onPick: () -> Unit,
@@ -767,6 +766,7 @@ fun WishlistImageBanner(
   }
 }
 
+@Composable
 fun AddDailyGoalDialog(
   onDismiss: () -> Unit,
   onConfirm: (title: String, emoji: String, targetVal: Int, unit: String, step: Int) -> Unit
